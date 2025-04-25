@@ -1,4 +1,4 @@
-# # Desafio Técnico SQL – Systock (Consumo, Requisição e Validação de Dados)
+# # Desafio Tecnico SQL – Systock (Consumo, Requisição e Validação de Dados)
  Sobre Mim
 - Moisés Castro [LinkedIn](https://www.linkedin.com/in/mois%C3%A9spcastro31/)
   Impulsionado por dados e pela vontade constante de evoluir em análise, automações e resolução de problemas

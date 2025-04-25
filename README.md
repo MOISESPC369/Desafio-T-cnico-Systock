@@ -1,26 +1,25 @@
+  Sobre Mim
+- Moisés Castro [LinkedIn](https://www.linkedin.com/in/mois%C3%A9spcastro31/)
+  Impulsionado por dados e pela vontade constante de evoluir em análise, automações e resolução de problemas
+
 # # Desafio Técnico SQL – Systock (Consumo, Requisição e Validação de Dados)
 
 Este repositório contém soluções SQL para o desafio técnico proposto pela Systock. O foco principal está em análises de consumo, requisições pendentes, movimentação de produtos e validação de dados para o mês de fevereiro de 2025, com foco em consistência e integridade das informações.
 
 Tecnologias e Ferramentas
-- PostgreSQL
-- SQL puro
-- VS Code / DBeaver (ou a IDE que você usou)
- 1.1 – Consumo por produto e mês
+- PostgreSQL 
+- Visual Studio Code
+- GitHub
 
 Organização
 - Parte 1 – Consultas SQL
 - Parte 2 – Transformações de Dados
 - Parte 3 – Estratégia de Validação com o Cliente
- Autor
-- Moisés [LinkedIn](https://www.linkedin.com/in/mois%C3%A9spcastro31/)
 
 
+##1-Consulta que soma o total vendido por produto no mês de fevereiro de 2025.
 
-
-
-1-Consulta que soma o total vendido por produto no mês de fevereiro de 2025.
-
+1.1 – Consumo por produto e mês
 SELECT 
     produto_id,
     SUM(qtde_vendida) AS total_consumo
@@ -70,7 +69,7 @@ WHERE
     em.entrada_id IS NULL
     AND v.venda_id IS NULL;
 
- Parte 2 – Transformações de Dados
+ ##Parte 2 – Transformações de Dados
 Transformação de dados
 Agrega os produtos com mais de 10 unidades requisitadas, agrupando por data e nome formatado do produto.
 
